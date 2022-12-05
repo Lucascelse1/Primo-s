@@ -1,0 +1,176 @@
+
+header {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    background-color: lightgreen;
+    width: 100%;
+    height: max-content;
+}
+
+.nav-div {
+    display: flex;
+    width: auto;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin: auto;
+}
+
+.nav-list li a {
+    color: green;
+    text-decoration: none;
+    padding: 15px 30px;
+    display: block;
+    font-size: 1.2rem;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+}
+
+.div-logo  {
+    width: 30%;
+    display: flex;
+}
+
+.logo {
+    margin: 10px;
+    width: 14rem;
+    height: 5rem;
+}
+
+.logo-link {
+    margin: 10px;
+    padding: 0;
+}
+
+.front-page {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.frontpage-div {
+    display: flex;
+    height: 15rem;
+}
+
+.imgs {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+
+.slider-contenedor {
+    display: flex;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #f2f2f2;
+    background-image: url('./images/fondo2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.contenedor{
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-contenedor{
+    width: 100%;
+    display: flex;
+}
+
+.contenido-slider{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+
+.contenido-slider > img{
+    width: 400px;
+}
+
+.contenido-slider > div{
+    width: 40%;
+}
+
+.div-img {
+    display: flex;
+}
+
+footer {
+    height: auto;
+    background: #111;
+    color: white;
+    opacity: 0.8;
+    margin-top: 80px;
+}
+
+.footer-contnent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-contnent h3 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.social li {
+    margin: 0 20px;
+}
+
+.social a {
+    text-decoration: none;
+    color: white;
+}
+
+.social a i {
+    font-size: 2rem;
+}
+
+.social a:hover i {
+    color: aqua;
+}
